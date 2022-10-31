@@ -1,0 +1,119 @@
+body{
+margin-left:  200px;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    border: 1px solid black;
+}
+.cabeza{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    background: rgb(174, 184, 201);
+    height: 200px;
+    line-height: 35px;
+}
+p{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    color: red;
+    font-size: 22px;
+    margin-left: 150px;
+}
+h2{
+    margin: 0;
+    color: blue;
+    font-size: 20px;
+}
+.bo{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    width: 100px;
+    height: 100px;
+}
+.imagen1{
+    width: 20%;
+}
+.imagen2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.imagen3{
+    width: 20%;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+.bloque1{
+    display: flex;
+    text-align: center;
+}
+.caja{
+    width: 90px;
+    background: yellow;
+    border: 1px solid black;
+}
+.caja1{
+    width: 90px;
+    border: 1px solid black;
+}
+.bloque2{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+.bloque22{
+display: flex;
+flex-direction: column;
+border-right: 1px solid black;
+}
+.bloque221{
+    height: 60%;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(68, 112, 189);
+}
+.bloque23{
+  width: 550px;  
+}
+.bloque24{
+    width: 175px;
+    background: rgb(174, 184, 201);
+    border-left: 1px solid black;
+}
+a{
+    margin: 7px;
+    padding: 4px;
+    background: white;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+a:hover{
+    background: aquamarine;
+}
+.pie1{
+    
+    flex-direction:row;
+    text-align: center;
+}
+.pie2{
+    background: rgb(68, 112, 189);
+}
+span{
+    background: rgb(224, 90, 90);
+    border: 1px solid black;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
