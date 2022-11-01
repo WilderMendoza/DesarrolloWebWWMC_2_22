@@ -1,0 +1,61 @@
+body{
+    margin-left: 200px;
+}
+.contenido{
+    border: 1px solid black;
+    width: 900px;
+}
+.cabeza{
+    text-align: center;
+    border-bottom: 1px solid black;
+    position: relative;
+    background: rgb(197, 227, 253);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+}
+h1{
+    color: red;
+    font-size: 23px;
+}
+h2{
+    color: blue;
+    font-size: 18px;
+}
+img{
+    position: absolute;
+    left: 100px;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+.caja{
+    width: 100px;
+    background: rgb(31, 31, 97);
+    text-align: center;
+}
+.cajac{
+    width: 700px;
+}
+a{
+    text-decoration:dotted;
+    color: black;
+    line-height: 50px;
+    padding: 5px;
+    background-color: white;
+    margin: 3px;
+}
+a:hover{
+    background: rgb(153, 207, 255);
+}
+.pie{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: red;
+    line-height:1px;
+    height: 100px;
+}
