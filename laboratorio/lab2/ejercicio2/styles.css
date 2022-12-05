@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(87, 87, 87);
+}
+.cuerpo{
+    width: 300px;
+    display:flex;
+    border: 1px solid rgb(40, 181, 206);
+}
+.caja{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 20px;
+}
