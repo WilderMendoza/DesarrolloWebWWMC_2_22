@@ -1,0 +1,10 @@
+button{
+    width: 60px;
+    height: 20px;
+}
+div{
+    display: flex;
+    width: 180px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
